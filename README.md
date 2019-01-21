@@ -27,7 +27,7 @@ File -> Open -> folder path
 
 Once the project opens connect your android mobile, then launch the TheBikelock app, you now have access to app.
 
-### Using his own SIGFOX module
+## Using his own SIGFOX module
 
 If you want to use your own SIGFOX data then it is necessary to change these lines of code below :
 
