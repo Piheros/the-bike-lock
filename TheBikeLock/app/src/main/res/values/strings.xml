@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">The Bike Lock</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">The Bike lock</string>
+    <string name="nav_header_subtitle">En cours de dev</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_app_bar">About</string>
+    <string name="button_text">Unlock</string>
+    <string name="unlock_string">Nfc code does not work ...</string>
+    <string name="about_unlock">
+        <b>Activating NFC</b>
+        \n\nIf your device has NFC, the chip and Android Beam need to be activated so that you can use NFC:\n\n
+        1. Go to Settings > More.\n\n
+        2. Tap on the NFC switch to activate it. The Android Beam function will also automatically turn on.\n\n
+        3. If Android Beam does not automatically turn on, just tap it and select Yes to turn it on.\n\n
+        Smartphones NFC capabilities operate in tandem with Android Beam. If Android Beam is disabled, it may limit NFC’s sharing capacity.
+    </string>
+    <string name="about_string">
+        <b>CONFIDENTIALITE\n\n</b>La présente application est la propriété de Rémi Meunier, Pierre Pavlovic et Henri Pineau, avec la société ESEO.
+        Elle est diffusé pour les seuls besoins du PFE. Il ne doit pas être reproduit, entièrement ou partiellement, ou
+        employé pour tout autre but sans autorisation écrite préalable de Henri Pineau, et à la condition que cette notification soit
+        incluse dans une telle reproduction. Aucune information quant au contenu ou aux thèmes de ce document ne
+        peut être communiquée de quelque façon à un tiers sans autorisation écrite de Henri Pineau.\n\nL’équipe de consultants du PFE échappe à ces restrictions et peut utiliser la présente
+        application pour toute utilisation qui leur convient, et ce sans autorisation de Henri Pineau. \n \n \n
+
+        <b>DESCRIPTION\n\n</b>Antivol de cadre pour vélo connecté. Réalisation antivol de vélo connecté à une application
+        sur smartphone. Fonctionnant en bluetooth et intégrant une géolocalisation en temp réel et un protocole
+        de communication tel que LoRa ou SIGFOX. De plus l ouverture et la fermeture seront automatisées grâce
+        à un moteur intégré.\n\n\n
+
+        <b>LICENSE\n\n</b>GNU GENERAL PUBLIC LICENSE\nVersion 3, 29 June 2007\nCopyright 2018 Rémi Meunier, Pierre Pavlovic et Henri Pineau\n\nThis program is free software: you can redistribute it and/or modify
+        it under the terms of the GNU General Public License as published by
+        the Free Software Foundation, either version 3 of the License, or
+        (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,
+        but WITHOUT ANY WARRANTY; without even the implied warranty of
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+        GNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License
+        along with this program.  If not, see https://www.gnu.org/licenses/\n\n\n
+
+        © Pierre Pavlovic\n\n\n
+
+    </string>
+
+</resources>

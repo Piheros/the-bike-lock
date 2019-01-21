@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragmentMain">
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/button_unlock_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="445dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/shape_rounded"
+        android:text="Unlock"
+        android:textColor="@color/colorButton"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/button_refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ic_baseline_refresh"
+        android:backgroundTint="#50000000" />
+
+    <ImageView
+        android:id="@+id/imageViewBattery100"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:visibility="gone"
+        app:srcCompat="@drawable/ic_battery100" />
+
+    <ImageView
+        android:id="@+id/imageViewBattery75"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:visibility="gone"
+        app:srcCompat="@drawable/ic_battery75" />
+
+    <ImageView
+        android:id="@+id/imageViewBattery50"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:visibility="gone"
+        app:srcCompat="@drawable/ic_battery50" />
+
+    <ImageView
+        android:id="@+id/imageViewBattery25"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:visibility="gone"
+        app:srcCompat="@drawable/ic_battery25" />
+
+    <ImageView
+        android:id="@+id/imageViewBattery0"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:visibility="gone"
+        app:srcCompat="@drawable/ic_battery0" />
+
+</RelativeLayout>
